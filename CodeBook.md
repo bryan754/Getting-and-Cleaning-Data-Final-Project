@@ -27,7 +27,7 @@ File with R code "run_analysis.R" perform 5 following steps (in accordance assig
   5.1 Making second tidy data set   
   5.2 Writing second tidy data set in txt file   
 
-## About Variables:   
+## About The Variables   
 * `x_train`, `y_train`, `x_test`, `y_test`, `subject_train` and `subject_test` contain the data from the downloaded files.
 * `x_data`, `y_data` and `subject_data` merge the previous datasets to further analysis.
 * `features` contains the correct names for the `x_data` dataset, which are applied to the column names stored in
