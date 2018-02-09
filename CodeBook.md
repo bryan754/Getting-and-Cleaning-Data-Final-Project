@@ -1,10 +1,9 @@
 
-## How to get some profit from this =)
-1. You have to download sourse data from link below and unzip it to working directory of R Studio.
-2. You have to perform R script.
+## Synopsis
+The purpose of this project is to demonstrate ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis. Required to submit: 1) a tidy data set as described below, 2) a link to a Github repository with script for performing the analysis, and 3) a code book that describes the variables, the data, and any transformations or work that performed to clean up the data called CodeBook.md.
 
 ## About source data
-As sourse data for work was used Human Activity Recognition Using Smartphones Data Set. A full description is available at the site where the data was obtained:
+As source data for work was used Human Activity Recognition Using Smartphones Data Set. A full description is available at the site where the data was obtained:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 Here are the data for the project: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
@@ -23,12 +22,10 @@ File with R code "run_analysis.R" perform 5 following steps (in accordance assig
   2.2 Create vector for defining ID, mean and standard deviation   
   2.3 Making nessesary subset from setAllInOne   
 3. Using descriptive activity names to name the activities in the data set   
-4. Appropriately labeling the data set with descriptive variable names   
+4. Labelling the data set with descriptive variable names   
 5. Creating a second, independent tidy data set with the average of each variable for each activity and each subject   
   5.1 Making second tidy data set   
   5.2 Writing second tidy data set in txt file   
-
-PS..The code takes for granted all the data is present in the same folder, un-compressed and without names altered.
 
 ## About variables:   
 * `x_train`, `y_train`, `x_test`, `y_test`, `subject_train` and `subject_test` contain the data from the downloaded files.
