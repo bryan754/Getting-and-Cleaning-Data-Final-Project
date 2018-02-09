@@ -2,12 +2,12 @@
 ## Synopsis
 The purpose of this project is to demonstrate ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis. Required to submit: 1) a tidy data set as described below, 2) a link to a Github repository with script for performing the analysis, and 3) a code book that describes the variables, the data, and any transformations or work that performed to clean up the data called CodeBook.md.
 
-## About source data
+## About The Source Data
 As source data for work was used Human Activity Recognition Using Smartphones Data Set. A full description is available at the site where the data was obtained:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 Here are the data for the project: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
-## About R script
+## About R Script
 File with R code "run_analysis.R" perform 5 following steps (in accordance assigned task of course work):   
 1. Merging the training and the test sets to create one data set.   
   1.1 Reading files    
@@ -27,7 +27,7 @@ File with R code "run_analysis.R" perform 5 following steps (in accordance assig
   5.1 Making second tidy data set   
   5.2 Writing second tidy data set in txt file   
 
-## About variables:   
+## About Variables:   
 * `x_train`, `y_train`, `x_test`, `y_test`, `subject_train` and `subject_test` contain the data from the downloaded files.
 * `x_data`, `y_data` and `subject_data` merge the previous datasets to further analysis.
 * `features` contains the correct names for the `x_data` dataset, which are applied to the column names stored in
